@@ -26,6 +26,11 @@ npm run dev
 # Open http://localhost:3000
 ```
 
+```For Production
+npm run build
+
+```
+
 ## Download Resume (PDF)
 
 Click "Download Resume" → Opens a beautifully formatted HTML resume in a new tab → Click "Save as PDF" (or Ctrl+P → Save as PDF). Includes all sections: summary, experience, projects, education, grouped skills, achievements, certifications, and awards.
