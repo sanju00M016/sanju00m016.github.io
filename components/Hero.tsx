@@ -21,7 +21,7 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p className="heading-md text-lg sm:text-xl md:text-2xl text-gradient mb-6" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.35, duration: 0.5 }}>
-          SRE 2 &middot; DevSecOps &middot; Cloud Security &middot; Platform Engineering
+          SRE &middot; DevSecOps &middot; Cloud Security &middot; Platform Engineering
         </motion.p>
 
         <motion.p className="body-lg text-base sm:text-lg max-w-2xl mx-auto text-[var(--text-secondary)] mb-10" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45, duration: 0.5 }}>
