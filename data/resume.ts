@@ -9,6 +9,7 @@ export const resumeData = {
     phone: "+91 9743428077",
     links: {
       linkedin: "https://www.linkedin.com/in/sanju-m",
+      github: "https://github.com/Sanju00M016"
     },
     open_to:
       "Open to DevSecOps, Site Reliability Engineer, Platform Engineer, and Cloud Infrastructure roles",
@@ -21,25 +22,14 @@ export const resumeData = {
       dates: "September 2023 – Present",
       location: "Bengaluru, Karnataka, India",
       bullets: [
-        "Owned DevOps/SRE platform support across 5 AWS accounts and 2 regions, spanning 4 environments, ~4 EKS clusters, ~40 Kubernetes nodes, ~100 services, 150+ EC2 instances, 6 RDS instances per environment, 4 ElastiCache resources and 4 OpenSearch resources.",
-        "Served as the primary DevOps/SRE platform contact for 22 engineers for approximately one year, providing reusable CI/CD workflows, centralized deployment configuration, observability, operational documentation and production support.",
-        "Reduced mean incident investigation time by 60% through a Grafana, Prometheus and Datadog observability framework with service metrics, alerting and Incident.io integration; supported a 5–6 engineer on-call rotation handling ~2–3 production incidents per month.",
-        "Achieved ~99.99% uptime for critical workloads by applying structured incident response, post-incident reviews, alert tuning, recurring-incident remediation and automated recovery patterns through Kubernetes and ArgoCD.",
-        "Executed production EKS upgrades from Kubernetes 1.30 through 1.34 across ~4 clusters, coordinating cluster version changes, add-on upgrades, node replacement, workload eviction and service validation while maintaining application availability.",
-        "Configured Kubernetes HPA using 30-day Prometheus CPU and memory utilization trends and configured PDBs based on service criticality and availability requirements; handled production troubleshooting across CrashLoopBackOff, OOMKilled, scheduling, networking and storage issues.",
-        "Standardized CI/CD across 25+ repositories by designing reusable GitHub Actions workflows and centralizing Helm/Kubernetes deployment configuration; reduced application build time from ~20 minutes to 3–4 minutes and standardized stage/environment approval gates and ArgoCD rollback.",
-        "Implemented GitHub Actions Runner Controller with ephemeral self-hosted runners on EC2, enabling repositories to select available runners through labels and supporting 2–3 concurrent jobs; contributed to runner autoscaling design.",
-        "Helped migrate repository-local ArgoCD configuration to an App-of-Apps model and centralized Helm/Kubernetes configuration, reducing duplication and enabling developers to consume a standard deployment path with service-specific values.",
-        "Used Claude daily as an AI-assisted engineering partner for designing and implementing internal engineering tools and infrastructure, including Terraform-based cloud changes, troubleshooting workflows, architecture/design evaluation and reusable plugins/hooks for team productivity.",
-        "Developed automated test suites and code-quality checks with Claude assistance and integrated them into CI/CD workflows, strengthening shift-left quality and enabling earlier detection of implementation issues.",
-        "Codified a large manually provisioned AWS estate into reusable Terraform modules spanning EKS, RDS, ElastiCache, OpenSearch, VPC, WAF, CloudFront, Lambda, API Gateway, Route 53, ALB and observability components, improving infrastructure consistency across 5 AWS accounts.",
-        "Led the end-to-end decommissioning of a legacy AWS estate, reducing recurring infrastructure costs by approximately $80K/month through retirement of 150+ EC2 instances, 15+ RDS databases, 15+ ElastiCache resources, 10+ Elasticsearch resources, 10+ DMS resources, 100+ load balancers and 100+ storage volumes, while preserving mandatory resources and critical production data.",
-        "Codified existing API Gateway infrastructure across all environments using Terraform, applying consistent infrastructure design principles and standardizing previously manual configuration.",
-        "Drove CrowdStrike CSPM coverage across 4 production EKS clusters and 5 AWS accounts, standardized container base-image adoption across all services, partnered with InfoSec on vulnerability remediation and SOC2 evidence, and initially owned remediation of 10–12 critical CVEs within 14 days.",
-        "Hardened production network communications by automating IPSec/StrongSwan and OpenVPN deployments with Terraform/Packer; managed IAM least-privilege reviews and AWS Secrets Manager integration through CSI drivers.",
-        "Authored DevOps runbooks and onboarding documentation in Confluence, conducted knowledge-transfer sessions, reviewed Terraform/Helm/Kubernetes changes, and helped define DevOps/SRE/platform engineering standards.",
+        "Owned production SRE/platform infrastructure across 5 AWS accounts, 2 regions and 4 environments, supporting ~4 EKS clusters, ~100 services and 150+ EC2 instances.",
+        "Standardized CI/CD across 25+ repositories with reusable GitHub Actions workflows, centralized Helm/Kubernetes configuration and ArgoCD GitOps, reducing build time from ~20 minutes to 3-4 minutes.",
+        "Reduced mean incident investigation time by 60% through Grafana, Prometheus, Datadog and structured incident response, supporting ~99.99% availability for critical workloads.",
+        "Executed production Kubernetes upgrades from 1.30 → 1.34, including add-ons, node replacement, workload migration, HPA/PDB tuning and production troubleshooting.",
+        "Led legacy AWS estate decommissioning that eliminated approximately $80K/month in recurring infrastructure cost, while preserving critical production data and mandatory resources.",
+        "Drove cloud security improvements across 5 AWS accounts and 4 EKS clusters, including CSPM, container base-image standardization, vulnerability remediation and SOC2/InfoSec collaboration.",
       ],
-    },
+      },
     {
       company: "Open Financial Technologies",
       role: "Site Reliability Engineer",
@@ -98,8 +88,8 @@ export const resumeData = {
   {
     item: "Standardized container security across the organisation",
     context:
-      "Drove standardised container base-image adoption across all but 2 services and partnered with InfoSec on vulnerability remediation and SOC2 evidence.",
-    metric: "All but 2",
+      "Drove standardised container base-image adoption across all services and partnered with InfoSec on vulnerability remediation and SOC2 evidence.",
+    metric: "Nearly 100%",
     type: "security" as const,
   },
   {

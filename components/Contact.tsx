@@ -1,15 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Linkedin, ExternalLink } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, ExternalLink, Github } from "lucide-react";
 import SectionWrapper from "./SectionWrapper";
 import { resumeData } from "@/data/resume";
 
 const items = [
   { icon: Mail, label: "Email", value: resumeData.basics.email, href: `mailto:${resumeData.basics.email}` },
   { icon: Phone, label: "Phone", value: resumeData.basics.phone, href: `tel:${resumeData.basics.phone}` },
-  { icon: MapPin, label: "Location", value: resumeData.basics.location, href: null },
+  { icon: Github, label: "GitHub", value: "github.com/Sanju00M016", href: resumeData.basics.links.github },
   { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/sanju-m", href: resumeData.basics.links.linkedin },
+  { icon: MapPin, label: "Location", value: resumeData.basics.location, href: null },
 ];
 
 export default function Contact() {
